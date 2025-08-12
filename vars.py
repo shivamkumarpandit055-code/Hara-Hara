@@ -2,14 +2,14 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "22448724"))
+API_HASH = os.environ.get("API_HASH", "4dcc0e5b700ad50b1f878e6f1e44c172")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8307557706:AAE4uD6dNrhQl3ViO-4xaDAQyTg7Srog0vA")
 
-CREDIT = os.environ.get("CREDIT", "〱ＵＧ▕")
+CREDIT = os.environ.get("CREDIT", "〱mr....▕")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://botexe:botexe@cluster0.pqc0ykw.mongodb.net/")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://shivamkumar055gram:JkInylriCfgItXqd@cluster0.tnjashu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -51,7 +51,7 @@ Please contact the admin to renew your subscription.</blockquote>""",
     "access_denied": """<b>⚠️ Access Denied!</b>
 
 <blockquote>You are not authorized to use this bot.
-Please contact the admin @ItsUGBot to get access.</blockquote>""",
+Please contact the admin @Radharadhe0 to get access.</blockquote>""",
 
     "not_admin": "⚠️ You are not authorized to use this command!",
     
@@ -59,3 +59,4 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
